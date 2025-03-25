@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root{
+    --background-image: #2c2c2c;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background-image);
+    color: #ebebeb;
+    font-family: JetBrains Mono, system-ui, -apple-system;
+    min-height: 70vh;
+    
+    margin: 100px 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section{
+    margin: 20px 0px;
+    padding: 20px;
+    outline: 6px solid #09f;
+    min-width: 500px;
+    max-width: 500px;
+
+}
+
+.boldtext{
+    color: #09f;
+    font-weight: bolder;
+}
+
+.profilepic{
+    width: 150px;
+    height: 150px;
+    padding: 0px 0px;
+}
+
+.title{
+    background-color: var(--background-image);
+    position: absolute;
+    padding: 0 10px;
+    margin: -40px 0px 0px -0px;
+}
+
+section:hover{
+    outline: 6px solid #fffdff;
+    transition: 0.3s;
+}
