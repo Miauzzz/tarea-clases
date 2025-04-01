@@ -15,7 +15,6 @@ body{
     color: #ebebeb;
     font-family: JetBrains Mono, system-ui, -apple-system;
     min-height: 70vh;
-    
     margin: 100px 0px;
 }
 
@@ -24,16 +23,14 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 section{
     margin: 20px 0px;
     padding: 20px;
-    outline: 6px solid #09f;
-    min-width: 500px;
-    max-width: 500px;
-
+    border: 6px solid #09f;
+    min-width: 450px;
+    max-width: 450px;
 }
 
 .boldtext{
@@ -42,8 +39,8 @@ section{
 }
 
 .profilepic{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     padding: 0px 0px;
 }
 
@@ -55,6 +52,6 @@ section{
 }
 
 section:hover{
-    outline: 6px solid #fffdff;
+    border: 6px solid #fffdff;
     transition: 0.3s;
 }
